@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OfficeApp
+  xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0"
+  xmlns:mailappor="http://schemas.microsoft.com/office/mailappversionoverrides" xsi:type="MailApp">
+  <Id>41f6a6f2-f271-4d8a-8508-26ded39437af</Id>
+  <Version>1.0.1.0</Version>
+  <ProviderName>Hoxhunt Ltd.</ProviderName>
+  <DefaultLocale>en-US</DefaultLocale>
+  <DisplayName DefaultValue="Report this email">
+        <Override Locale="ar-SA" Value="الإبلاغ عن هذا البريد الإلكتروني" />
+        <Override Locale="bg-BG" Value="Докладвайте този имейл" />
+        <Override Locale="cs-CZ" Value="Nahlásit tento e-mail" />
+        <Override Locale="da-DK" Value="Rapporter denne e-mail" />
+        <Override Locale="de-CH" Value="Diese E-Mail melden" />
+        <Override Locale="de-DE" Value="Diese E-Mail melden" />
+        <Override Locale="el-GR" Value="Αναφέρετε αυτό το email" />
+        <Override Locale="en-US" Value="Report this email" />
+        <Override Locale="es-419" Value="Denunciar este correo electrónico" />
+        <Override Locale="es-ES" Value="Denunciar este correo electrónico" />
+        <Override Locale="et-EE" Value="Teata sellest meilist" />
+        <Override Locale="fi-FI" Value="Raportoi sähköposti" />
+        <Override Locale="fr-CA" Value="Signaler ce courriel" />
+        <Override Locale="fr-FR" Value="Signaler cet e-mail" />
+        <Override Locale="he-IL" Value="דווח על דוא&quot;ל זה" />
+        <Override Locale="hi-IN" Value="इस ईमेल की रिपोर्ट करें" />
+        <Override Locale="hr-HR" Value="Prijavi ovu e-poštu" />
+        <Override Locale="hu-HU" Value="A jelen e-mail bejelentése" />
+        <Override Locale="id-ID" Value="Laporkan email ini" />
+        <Override Locale="it-IT" Value="Segnala l&#x27;e-mail" />
+        <Override Locale="ja-JP" Value="このメールを報告する" />
+        <Override Locale="ko-KR" Value="이 이메일 신고" />
+        <Override Locale="lt-LT" Value="Pranešti apie šį el. laišką" />
+        <Override Locale="lv-LV" Value="Ziņot par šo e-pasta ziņojumu" />
+        <Override Locale="ms-MY" Value="Laporkan e-mel ini" />
+        <Override Locale="nl-NL" Value="Meld deze e-mail" />
+        <Override Locale="no-NO" Value="Rapporter denne e-posten" />
+        <Override Locale="pl-PL" Value="Zgłoś tę wiadomość e-mail" />
+        <Override Locale="pt-BR" Value="Denunciar este e-mail" />
+        <Override Locale="pt-PT" Value="Denunciar este e-mail" />
+        <Override Locale="ro-RO" Value="Raportează acest e-mail" />
+        <Override Locale="ru-RU" Value="Пометить письмо" />
+        <Override Locale="sk-SK" Value="Nahlásiť tento e-mail" />
+        <Override Locale="sl-SI" Value="Prijavi to e-pošto" />
+        <Override Locale="sr-RS" Value="Prijavite ovaj imejl" />
+        <Override Locale="sv-SE" Value="Rapportera detta e-postmeddelande" />
+        <Override Locale="th-TH" Value="รายงานอีเมลนี้" />
+        <Override Locale="tr-TR" Value="Bu e-postayı raporla" />
+        <Override Locale="vi-VN" Value="Báo cáo email này" />
+        <Override Locale="zh-CN" Value="报告此电子邮件" />
+        <Override Locale="zh-TW" Value="檢舉此電子郵件" />
+  </DisplayName>
+  <Description DefaultValue="Hoxhunt Plugin">
+        <Override Locale="ar-SA" Value="مكون Hoxhunt الإضافي" />
+        <Override Locale="bg-BG" Value="Приставка на Hoxhunt" />
+        <Override Locale="cs-CZ" Value="Plugin Hoxhunt" />
+        <Override Locale="da-DK" Value="Hoxhunt-plugin" />
+        <Override Locale="de-CH" Value="Hoxhunt-Plug-in" />
+        <Override Locale="de-DE" Value="Hoxhunt-Plug-in" />
+        <Override Locale="el-GR" Value="Πρόσθετο Hoxhunt" />
+        <Override Locale="en-US" Value="Hoxhunt Plugin" />
+        <Override Locale="es-419" Value="Complemento de Hoxhunt" />
+        <Override Locale="es-ES" Value="Complemento de Hoxhunt" />
+        <Override Locale="et-EE" Value="Asutuse Hoxhunt pistikprogramm" />
+        <Override Locale="fi-FI" Value="Hoxhunt-laajennus" />
+        <Override Locale="fr-CA" Value="Extension Hoxhunt" />
+        <Override Locale="fr-FR" Value="Extension Hoxhunt" />
+        <Override Locale="he-IL" Value="תוסף Hoxhunt" />
+        <Override Locale="hi-IN" Value="Hoxhunt प्लगइन" />
+        <Override Locale="hr-HR" Value="Hoxhunt dodatak" />
+        <Override Locale="hu-HU" Value="Hoxhunt Plugin" />
+        <Override Locale="id-ID" Value="Plugin Hoxhunt" />
+        <Override Locale="it-IT" Value="Plugin Hoxhunt" />
+        <Override Locale="ja-JP" Value="Hoxhunt プラグイン" />
+        <Override Locale="ko-KR" Value="Hoxhunt 플러그인" />
+        <Override Locale="lt-LT" Value="„Hoxhunt&quot; papildinys" />
+        <Override Locale="lv-LV" Value="Hoxhunt spraudnis" />
+        <Override Locale="ms-MY" Value="Pemalam Hoxhunt" />
+        <Override Locale="nl-NL" Value="Hoxhunt-plug-in" />
+        <Override Locale="no-NO" Value="Hoxhunt-plugin" />
+        <Override Locale="pl-PL" Value="Wtyczka Hoxhunt" />
+        <Override Locale="pt-BR" Value="Plugin Hoxhunt" />
+        <Override Locale="pt-PT" Value="Plugin Hoxhunt" />
+        <Override Locale="ro-RO" Value="Plugin Hoxhunt" />
+        <Override Locale="ru-RU" Value="Плагин Hoxhunt" />
+        <Override Locale="sk-SK" Value="Doplnok Hoxhunt" />
+        <Override Locale="sl-SI" Value="Vtičnik Hoxhunt" />
+        <Override Locale="sr-RS" Value="Hoxhunt dodatna komponenta" />
+        <Override Locale="sv-SE" Value="Hoxhunt-plugin" />
+        <Override Locale="th-TH" Value="ปลั๊กอิน Hoxhunt" />
+        <Override Locale="tr-TR" Value="Hoxhunt Eklentisi" />
+        <Override Locale="vi-VN" Value="Tiện ích Hoxhunt" />
+        <Override Locale="zh-CN" Value="Hoxhunt 插件" />
+        <Override Locale="zh-TW" Value="Hoxhunt 外掛程式" />
+  </Description>
+  <IconUrl DefaultValue="https://officejs.hoxhunt.com/api/v1/manifest/icon/default/64/icon.png"/>
+  <HighResolutionIconUrl DefaultValue="https://officejs.hoxhunt.com/api/v1/manifest/icon/default/64/icon.png"/>
+  <AppDomains>
+    <AppDomain>https://officejs.hoxhunt.com</AppDomain>
+    <AppDomain>https://app.hoxhunt.com</AppDomain>
+    <AppDomain>https://game.hoxhunt.com</AppDomain>
+    <AppDomain>https://public.hoxhunt.com</AppDomain>
+    <AppDomain>https://support.hoxhunt.com</AppDomain>
+  </AppDomains>
+  <Hosts>
+    <Host Name="Mailbox" />
+  </Hosts>
+  <Requirements>
+    <Sets>
+      <Set Name="MailBox" MinVersion="1.1" />
+    </Sets>
+  </Requirements>
+  <FormSettings>
+    <Form xsi:type="ItemRead">
+      <DesktopSettings>
+        <SourceLocation DefaultValue="https://officejs.hoxhunt.com/?mv&#x3D;MS4wLjEuMA%3D%3D"/>
+        <RequestedHeight>324</RequestedHeight>
+      </DesktopSettings>
+      <TabletSettings>
+        <SourceLocation DefaultValue="https://officejs.hoxhunt.com/?mv&#x3D;MS4wLjEuMA%3D%3D"/>
+        <RequestedHeight>324</RequestedHeight>
+      </TabletSettings>
+      <PhoneSettings>
+        <SourceLocation DefaultValue="https://officejs.hoxhunt.com/?mv&#x3D;MS4wLjEuMA%3D%3D"/>
+      </PhoneSettings>
+    </Form>
+    <Form xsi:type="ItemEdit">
+      <DesktopSettings>
+        <SourceLocation DefaultValue="https://officejs.hoxhunt.com/?mv&#x3D;MS4wLjEuMA%3D%3D"/>
+      </DesktopSettings>
+    </Form>
+  </FormSettings>
+  <Permissions>ReadWriteMailbox</Permissions>
+  <Rule xsi:type="RuleCollection" Mode="Or">
+    <Rule xsi:type="ItemIs" ItemType="Message" FormType="Edit" />
+    <Rule xsi:type="ItemIs" ItemType="Message" FormType="Read" />
+  </Rule>
+  <DisableEntityHighlighting>false</DisableEntityHighlighting>
+  <VersionOverrides
+    xmlns="http://schemas.microsoft.com/office/mailappversionoverrides" xsi:type="VersionOverridesV1_0">
+    <Requirements>
+      <bt:Sets DefaultMinVersion="1.3">
+        <bt:Set Name="Mailbox" />
+      </bt:Sets>
+    </Requirements>
+    <Hosts>
+      <Host xsi:type="MailHost">
+        <DesktopFormFactor>
+          <!-- Message read form -->
+          <ExtensionPoint xsi:type="MessageReadCommandSurface">
+            <OfficeTab id="TabDefault">
+              <Group id="msgReadDemoGroup">
+                <Label resid="groupLabel" />
+                <!-- Function (UI-less) button -->
+                <Control xsi:type="Button" id="msgReadFunctionButton">
+                  <Label resid="funcReadButtonLabel" />
+                  <Supertip>
+                    <Title resid="funcReadSuperTipTitle" />
+                    <Description resid="funcReadSuperTipDescription" />
+                  </Supertip>
+                  <Icon>
+                    <bt:Image size="16" resid="icon-16" />
+                    <bt:Image size="32" resid="icon-32" />
+                    <bt:Image size="80" resid="icon-80" />
+                  </Icon>
+                  <Action xsi:type="ShowTaskpane">
+                    <!--Provide a url resource id for the location that will be displayed on the task pane -->
+                    <SourceLocation resid="readTaskPaneUrl" />
+                  </Action>
+                </Control>
+              </Group>
+            </OfficeTab>
+          </ExtensionPoint>
+        </DesktopFormFactor>
+      </Host>
+    </Hosts>
+    <Resources>
+      <bt:Images>
+        <!-- Blue icon -->
+        <bt:Image id="icon-25" DefaultValue="https://officejs.hoxhunt.com/api/v1/manifest/icon/default/25/icon.png"/>
+        <bt:Image id="icon-48" DefaultValue="https://officejs.hoxhunt.com/api/v1/manifest/icon/default/48/icon.png"/>
+        <bt:Image id="icon-16" DefaultValue="https://officejs.hoxhunt.com/api/v1/manifest/icon/default/16/icon.png"/>
+        <bt:Image id="icon-32" DefaultValue="https://officejs.hoxhunt.com/api/v1/manifest/icon/default/32/icon.png"/>
+        <bt:Image id="icon-80" DefaultValue="https://officejs.hoxhunt.com/api/v1/manifest/icon/default/80/icon.png"/>
+      </bt:Images>
+      <bt:Urls>
+        <bt:Url id="functionFile" DefaultValue="https://officejs.hoxhunt.com/?mv&#x3D;MS4wLjEuMA%3D%3D"/>
+        <bt:Url id="readTaskPaneUrl" DefaultValue="https://officejs.hoxhunt.com/?mv&#x3D;MS4wLjEuMA%3D%3D"/>
+        <bt:Url id="composeTaskPaneUrl" DefaultValue="https://officejs.hoxhunt.com/?mv&#x3D;MS4wLjEuMA%3D%3D"/>
+      </bt:Urls>
+      <bt:ShortStrings>
+        <bt:String id="groupLabel" DefaultValue="Hoxhunt"/>
+        <!-- Read mode -->
+        <bt:String id="funcReadButtonLabel" DefaultValue="Report this email">
+              <bt:Override Locale="ar-SA" Value="الإبلاغ عن هذا البريد الإلكتروني" />
+              <bt:Override Locale="bg-BG" Value="Докладвайте този имейл" />
+              <bt:Override Locale="cs-CZ" Value="Nahlásit tento e-mail" />
+              <bt:Override Locale="da-DK" Value="Rapporter denne e-mail" />
+              <bt:Override Locale="de-CH" Value="Diese E-Mail melden" />
+              <bt:Override Locale="de-DE" Value="Diese E-Mail melden" />
+              <bt:Override Locale="el-GR" Value="Αναφέρετε αυτό το email" />
+              <bt:Override Locale="en-US" Value="Report this email" />
+              <bt:Override Locale="es-419" Value="Denunciar este correo electrónico" />
+              <bt:Override Locale="es-ES" Value="Denunciar este correo electrónico" />
+              <bt:Override Locale="et-EE" Value="Teata sellest meilist" />
+              <bt:Override Locale="fi-FI" Value="Raportoi sähköposti" />
+              <bt:Override Locale="fr-CA" Value="Signaler ce courriel" />
+              <bt:Override Locale="fr-FR" Value="Signaler cet e-mail" />
+              <bt:Override Locale="he-IL" Value="דווח על דוא&quot;ל זה" />
+              <bt:Override Locale="hi-IN" Value="इस ईमेल की रिपोर्ट करें" />
+              <bt:Override Locale="hr-HR" Value="Prijavi ovu e-poštu" />
+              <bt:Override Locale="hu-HU" Value="A jelen e-mail bejelentése" />
+              <bt:Override Locale="id-ID" Value="Laporkan email ini" />
+              <bt:Override Locale="it-IT" Value="Segnala l&#x27;e-mail" />
+              <bt:Override Locale="ja-JP" Value="このメールを報告する" />
+              <bt:Override Locale="ko-KR" Value="이 이메일 신고" />
+              <bt:Override Locale="lt-LT" Value="Pranešti apie šį el. laišką" />
+              <bt:Override Locale="lv-LV" Value="Ziņot par šo e-pasta ziņojumu" />
+              <bt:Override Locale="ms-MY" Value="Laporkan e-mel ini" />
+              <bt:Override Locale="nl-NL" Value="Meld deze e-mail" />
+              <bt:Override Locale="no-NO" Value="Rapporter denne e-posten" />
+              <bt:Override Locale="pl-PL" Value="Zgłoś tę wiadomość e-mail" />
+              <bt:Override Locale="pt-BR" Value="Denunciar este e-mail" />
+              <bt:Override Locale="pt-PT" Value="Denunciar este e-mail" />
+              <bt:Override Locale="ro-RO" Value="Raportează acest e-mail" />
+              <bt:Override Locale="ru-RU" Value="Пометить письмо" />
+              <bt:Override Locale="sk-SK" Value="Nahlásiť tento e-mail" />
+              <bt:Override Locale="sl-SI" Value="Prijavi to e-pošto" />
+              <bt:Override Locale="sr-RS" Value="Prijavite ovaj imejl" />
+              <bt:Override Locale="sv-SE" Value="Rapportera detta e-postmeddelande" />
+              <bt:Override Locale="th-TH" Value="รายงานอีเมลนี้" />
+              <bt:Override Locale="tr-TR" Value="Bu e-postayı raporla" />
+              <bt:Override Locale="vi-VN" Value="Báo cáo email này" />
+              <bt:Override Locale="zh-CN" Value="报告此电子邮件" />
+              <bt:Override Locale="zh-TW" Value="檢舉此電子郵件" />
+        </bt:String>
+        <bt:String id="funcReadSuperTipTitle" DefaultValue="Report this email">
+              <bt:Override Locale="ar-SA" Value="الإبلاغ عن هذا البريد الإلكتروني" />
+              <bt:Override Locale="bg-BG" Value="Докладвайте този имейл" />
+              <bt:Override Locale="cs-CZ" Value="Nahlásit tento e-mail" />
+              <bt:Override Locale="da-DK" Value="Rapporter denne e-mail" />
+              <bt:Override Locale="de-CH" Value="Diese E-Mail melden" />
+              <bt:Override Locale="de-DE" Value="Diese E-Mail melden" />
+              <bt:Override Locale="el-GR" Value="Αναφέρετε αυτό το email" />
+              <bt:Override Locale="en-US" Value="Report this email" />
+              <bt:Override Locale="es-419" Value="Denunciar este correo electrónico" />
+              <bt:Override Locale="es-ES" Value="Denunciar este correo electrónico" />
+              <bt:Override Locale="et-EE" Value="Teata sellest meilist" />
+              <bt:Override Locale="fi-FI" Value="Raportoi sähköposti" />
+              <bt:Override Locale="fr-CA" Value="Signaler ce courriel" />
+              <bt:Override Locale="fr-FR" Value="Signaler cet e-mail" />
+              <bt:Override Locale="he-IL" Value="דווח על דוא&quot;ל זה" />
+              <bt:Override Locale="hi-IN" Value="इस ईमेल की रिपोर्ट करें" />
+              <bt:Override Locale="hr-HR" Value="Prijavi ovu e-poštu" />
+              <bt:Override Locale="hu-HU" Value="A jelen e-mail bejelentése" />
+              <bt:Override Locale="id-ID" Value="Laporkan email ini" />
+              <bt:Override Locale="it-IT" Value="Segnala l&#x27;e-mail" />
+              <bt:Override Locale="ja-JP" Value="このメールを報告する" />
+              <bt:Override Locale="ko-KR" Value="이 이메일 신고" />
+              <bt:Override Locale="lt-LT" Value="Pranešti apie šį el. laišką" />
+              <bt:Override Locale="lv-LV" Value="Ziņot par šo e-pasta ziņojumu" />
+              <bt:Override Locale="ms-MY" Value="Laporkan e-mel ini" />
+              <bt:Override Locale="nl-NL" Value="Meld deze e-mail" />
+              <bt:Override Locale="no-NO" Value="Rapporter denne e-posten" />
+              <bt:Override Locale="pl-PL" Value="Zgłoś tę wiadomość e-mail" />
+              <bt:Override Locale="pt-BR" Value="Denunciar este e-mail" />
+              <bt:Override Locale="pt-PT" Value="Denunciar este e-mail" />
+              <bt:Override Locale="ro-RO" Value="Raportează acest e-mail" />
+              <bt:Override Locale="ru-RU" Value="Пометить письмо" />
+              <bt:Override Locale="sk-SK" Value="Nahlásiť tento e-mail" />
+              <bt:Override Locale="sl-SI" Value="Prijavi to e-pošto" />
+              <bt:Override Locale="sr-RS" Value="Prijavite ovaj imejl" />
+              <bt:Override Locale="sv-SE" Value="Rapportera detta e-postmeddelande" />
+              <bt:Override Locale="th-TH" Value="รายงานอีเมลนี้" />
+              <bt:Override Locale="tr-TR" Value="Bu e-postayı raporla" />
+              <bt:Override Locale="vi-VN" Value="Báo cáo email này" />
+              <bt:Override Locale="zh-CN" Value="报告此电子邮件" />
+              <bt:Override Locale="zh-TW" Value="檢舉此電子郵件" />
+        </bt:String>
+      </bt:ShortStrings>
+      <bt:LongStrings>
+        <!-- Read mode -->
+        <bt:String id="funcReadSuperTipDescription" DefaultValue="Report this email">
+              <bt:Override Locale="ar-SA" Value="الإبلاغ عن هذا البريد الإلكتروني" />
+              <bt:Override Locale="bg-BG" Value="Докладвайте този имейл" />
+              <bt:Override Locale="cs-CZ" Value="Nahlásit tento e-mail" />
+              <bt:Override Locale="da-DK" Value="Rapporter denne e-mail" />
+              <bt:Override Locale="de-CH" Value="Diese E-Mail melden" />
+              <bt:Override Locale="de-DE" Value="Diese E-Mail melden" />
+              <bt:Override Locale="el-GR" Value="Αναφέρετε αυτό το email" />
+              <bt:Override Locale="en-US" Value="Report this email" />
+              <bt:Override Locale="es-419" Value="Denunciar este correo electrónico" />
+              <bt:Override Locale="es-ES" Value="Denunciar este correo electrónico" />
+              <bt:Override Locale="et-EE" Value="Teata sellest meilist" />
+              <bt:Override Locale="fi-FI" Value="Raportoi sähköposti" />
+              <bt:Override Locale="fr-CA" Value="Signaler ce courriel" />
+              <bt:Override Locale="fr-FR" Value="Signaler cet e-mail" />
+              <bt:Override Locale="he-IL" Value="דווח על דוא&quot;ל זה" />
+              <bt:Override Locale="hi-IN" Value="इस ईमेल की रिपोर्ट करें" />
+              <bt:Override Locale="hr-HR" Value="Prijavi ovu e-poštu" />
+              <bt:Override Locale="hu-HU" Value="A jelen e-mail bejelentése" />
+              <bt:Override Locale="id-ID" Value="Laporkan email ini" />
+              <bt:Override Locale="it-IT" Value="Segnala l&#x27;e-mail" />
+              <bt:Override Locale="ja-JP" Value="このメールを報告する" />
+              <bt:Override Locale="ko-KR" Value="이 이메일 신고" />
+              <bt:Override Locale="lt-LT" Value="Pranešti apie šį el. laišką" />
+              <bt:Override Locale="lv-LV" Value="Ziņot par šo e-pasta ziņojumu" />
+              <bt:Override Locale="ms-MY" Value="Laporkan e-mel ini" />
+              <bt:Override Locale="nl-NL" Value="Meld deze e-mail" />
+              <bt:Override Locale="no-NO" Value="Rapporter denne e-posten" />
+              <bt:Override Locale="pl-PL" Value="Zgłoś tę wiadomość e-mail" />
+              <bt:Override Locale="pt-BR" Value="Denunciar este e-mail" />
+              <bt:Override Locale="pt-PT" Value="Denunciar este e-mail" />
+              <bt:Override Locale="ro-RO" Value="Raportează acest e-mail" />
+              <bt:Override Locale="ru-RU" Value="Пометить письмо" />
+              <bt:Override Locale="sk-SK" Value="Nahlásiť tento e-mail" />
+              <bt:Override Locale="sl-SI" Value="Prijavi to e-pošto" />
+              <bt:Override Locale="sr-RS" Value="Prijavite ovaj imejl" />
+              <bt:Override Locale="sv-SE" Value="Rapportera detta e-postmeddelande" />
+              <bt:Override Locale="th-TH" Value="รายงานอีเมลนี้" />
+              <bt:Override Locale="tr-TR" Value="Bu e-postayı raporla" />
+              <bt:Override Locale="vi-VN" Value="Báo cáo email này" />
+              <bt:Override Locale="zh-CN" Value="报告此电子邮件" />
+              <bt:Override Locale="zh-TW" Value="檢舉此電子郵件" />
+        </bt:String>
+      </bt:LongStrings>
+    </Resources>
+  <VersionOverrides
+    xmlns="http://schemas.microsoft.com/office/mailappversionoverrides/1.1" xsi:type="VersionOverridesV1_1">
+    <Requirements>
+      <bt:Sets DefaultMinVersion="1.3">
+        <bt:Set Name="Mailbox" />
+      </bt:Sets>
+    </Requirements>
+    <Hosts>
+      <Host xsi:type="MailHost">
+        <DesktopFormFactor>
+          <SupportsSharedFolders>true</SupportsSharedFolders>
+
+          <!-- Message read form -->
+          <ExtensionPoint xsi:type="MessageReadCommandSurface">
+            <OfficeTab id="TabDefault">
+              <Group id="msgReadDemoGroup">
+                <Label resid="groupLabel" />
+                <!-- Function (UI-less) button -->
+                <Control xsi:type="Button" id="msgReadFunctionButton">
+                  <Label resid="funcReadButtonLabel" />
+                  <Supertip>
+                    <Title resid="funcReadSuperTipTitle" />
+                    <Description resid="funcReadSuperTipDescription" />
+                  </Supertip>
+                  <Icon>
+                    <bt:Image size="16" resid="icon-16" />
+                    <bt:Image size="32" resid="icon-32" />
+                    <bt:Image size="80" resid="icon-80" />
+                  </Icon>
+                  <Action xsi:type="ShowTaskpane">
+                    <!--Provide a url resource id for the location that will be displayed on the task pane -->
+                    <SourceLocation resid="readTaskPaneUrl" />
+                  </Action>
+                </Control>
+              </Group>
+            </OfficeTab>
+          </ExtensionPoint>
+        </DesktopFormFactor>
+        <MobileFormFactor>
+          <ExtensionPoint xsi:type="MobileMessageReadCommandSurface">
+                        <Group id="mobileMsgRead">
+                <Label resid="groupLabel" />
+
+                <!-- Function (UI-less) button -->
+                <Control xsi:type="MobileButton" id="mblTaskPane">
+                  <Label resid="funcReadButtonLabel" />
+                  <Icon xsi:type="bt:MobileIconList">
+                    <bt:Image size="25" scale="1" resid="icon-25" />
+                    <bt:Image size="25" scale="2" resid="icon-25" />
+                    <bt:Image size="25" scale="3" resid="icon-25" />
+
+                    <bt:Image size="32" scale="1" resid="icon-32" />
+                    <bt:Image size="32" scale="2" resid="icon-32" />
+                    <bt:Image size="32" scale="3" resid="icon-32" />
+
+                    <bt:Image size="48" scale="1" resid="icon-48" />
+                    <bt:Image size="48" scale="2" resid="icon-48" />
+                    <bt:Image size="48" scale="3" resid="icon-48" />
+
+                  </Icon>
+                  <Action xsi:type="ShowTaskpane">
+                    <!--Provide a url resource id for the location that will be displayed on the task pane -->
+                    <SourceLocation resid="readTaskPaneUrl" />
+                  </Action>
+                </Control>
+
+            </Group>
+
+          </ExtensionPoint>
+          <!-- possibly more ExtensionPoint elements -->
+        </MobileFormFactor>
+      </Host>
+    </Hosts>
+    <Resources>
+      <bt:Images>
+        <!-- Blue icon -->
+        <bt:Image id="icon-25" DefaultValue="https://officejs.hoxhunt.com/api/v1/manifest/icon/default/25/icon.png"/>
+        <bt:Image id="icon-48" DefaultValue="https://officejs.hoxhunt.com/api/v1/manifest/icon/default/48/icon.png"/>
+        <bt:Image id="icon-16" DefaultValue="https://officejs.hoxhunt.com/api/v1/manifest/icon/default/16/icon.png"/>
+        <bt:Image id="icon-32" DefaultValue="https://officejs.hoxhunt.com/api/v1/manifest/icon/default/32/icon.png"/>
+        <bt:Image id="icon-80" DefaultValue="https://officejs.hoxhunt.com/api/v1/manifest/icon/default/80/icon.png"/>
+      </bt:Images>
+      <bt:Urls>
+        <bt:Url id="functionFile" DefaultValue="https://officejs.hoxhunt.com/?mv&#x3D;MS4wLjEuMA%3D%3D"/>
+        <bt:Url id="readTaskPaneUrl" DefaultValue="https://officejs.hoxhunt.com/?mv&#x3D;MS4wLjEuMA%3D%3D"/>
+        <bt:Url id="composeTaskPaneUrl" DefaultValue="https://officejs.hoxhunt.com/?mv&#x3D;MS4wLjEuMA%3D%3D"/>
+      </bt:Urls>
+      <bt:ShortStrings>
+        <bt:String id="groupLabel" DefaultValue="Hoxhunt"/>
+        <!-- Read mode -->
+        <bt:String id="funcReadButtonLabel" DefaultValue="Report this email">
+              <bt:Override Locale="ar-SA" Value="الإبلاغ عن هذا البريد الإلكتروني" />
+              <bt:Override Locale="bg-BG" Value="Докладвайте този имейл" />
+              <bt:Override Locale="cs-CZ" Value="Nahlásit tento e-mail" />
+              <bt:Override Locale="da-DK" Value="Rapporter denne e-mail" />
+              <bt:Override Locale="de-CH" Value="Diese E-Mail melden" />
+              <bt:Override Locale="de-DE" Value="Diese E-Mail melden" />
+              <bt:Override Locale="el-GR" Value="Αναφέρετε αυτό το email" />
+              <bt:Override Locale="en-US" Value="Report this email" />
+              <bt:Override Locale="es-419" Value="Denunciar este correo electrónico" />
+              <bt:Override Locale="es-ES" Value="Denunciar este correo electrónico" />
+              <bt:Override Locale="et-EE" Value="Teata sellest meilist" />
+              <bt:Override Locale="fi-FI" Value="Raportoi sähköposti" />
+              <bt:Override Locale="fr-CA" Value="Signaler ce courriel" />
+              <bt:Override Locale="fr-FR" Value="Signaler cet e-mail" />
+              <bt:Override Locale="he-IL" Value="דווח על דוא&quot;ל זה" />
+              <bt:Override Locale="hi-IN" Value="इस ईमेल की रिपोर्ट करें" />
+              <bt:Override Locale="hr-HR" Value="Prijavi ovu e-poštu" />
+              <bt:Override Locale="hu-HU" Value="A jelen e-mail bejelentése" />
+              <bt:Override Locale="id-ID" Value="Laporkan email ini" />
+              <bt:Override Locale="it-IT" Value="Segnala l&#x27;e-mail" />
+              <bt:Override Locale="ja-JP" Value="このメールを報告する" />
+              <bt:Override Locale="ko-KR" Value="이 이메일 신고" />
+              <bt:Override Locale="lt-LT" Value="Pranešti apie šį el. laišką" />
+              <bt:Override Locale="lv-LV" Value="Ziņot par šo e-pasta ziņojumu" />
+              <bt:Override Locale="ms-MY" Value="Laporkan e-mel ini" />
+              <bt:Override Locale="nl-NL" Value="Meld deze e-mail" />
+              <bt:Override Locale="no-NO" Value="Rapporter denne e-posten" />
+              <bt:Override Locale="pl-PL" Value="Zgłoś tę wiadomość e-mail" />
+              <bt:Override Locale="pt-BR" Value="Denunciar este e-mail" />
+              <bt:Override Locale="pt-PT" Value="Denunciar este e-mail" />
+              <bt:Override Locale="ro-RO" Value="Raportează acest e-mail" />
+              <bt:Override Locale="ru-RU" Value="Пометить письмо" />
+              <bt:Override Locale="sk-SK" Value="Nahlásiť tento e-mail" />
+              <bt:Override Locale="sl-SI" Value="Prijavi to e-pošto" />
+              <bt:Override Locale="sr-RS" Value="Prijavite ovaj imejl" />
+              <bt:Override Locale="sv-SE" Value="Rapportera detta e-postmeddelande" />
+              <bt:Override Locale="th-TH" Value="รายงานอีเมลนี้" />
+              <bt:Override Locale="tr-TR" Value="Bu e-postayı raporla" />
+              <bt:Override Locale="vi-VN" Value="Báo cáo email này" />
+              <bt:Override Locale="zh-CN" Value="报告此电子邮件" />
+              <bt:Override Locale="zh-TW" Value="檢舉此電子郵件" />
+        </bt:String>
+        <bt:String id="funcReadSuperTipTitle" DefaultValue="Report this email">
+              <bt:Override Locale="ar-SA" Value="الإبلاغ عن هذا البريد الإلكتروني" />
+              <bt:Override Locale="bg-BG" Value="Докладвайте този имейл" />
+              <bt:Override Locale="cs-CZ" Value="Nahlásit tento e-mail" />
+              <bt:Override Locale="da-DK" Value="Rapporter denne e-mail" />
+              <bt:Override Locale="de-CH" Value="Diese E-Mail melden" />
+              <bt:Override Locale="de-DE" Value="Diese E-Mail melden" />
+              <bt:Override Locale="el-GR" Value="Αναφέρετε αυτό το email" />
+              <bt:Override Locale="en-US" Value="Report this email" />
+              <bt:Override Locale="es-419" Value="Denunciar este correo electrónico" />
+              <bt:Override Locale="es-ES" Value="Denunciar este correo electrónico" />
+              <bt:Override Locale="et-EE" Value="Teata sellest meilist" />
+              <bt:Override Locale="fi-FI" Value="Raportoi sähköposti" />
+              <bt:Override Locale="fr-CA" Value="Signaler ce courriel" />
+              <bt:Override Locale="fr-FR" Value="Signaler cet e-mail" />
+              <bt:Override Locale="he-IL" Value="דווח על דוא&quot;ל זה" />
+              <bt:Override Locale="hi-IN" Value="इस ईमेल की रिपोर्ट करें" />
+              <bt:Override Locale="hr-HR" Value="Prijavi ovu e-poštu" />
+              <bt:Override Locale="hu-HU" Value="A jelen e-mail bejelentése" />
+              <bt:Override Locale="id-ID" Value="Laporkan email ini" />
+              <bt:Override Locale="it-IT" Value="Segnala l&#x27;e-mail" />
+              <bt:Override Locale="ja-JP" Value="このメールを報告する" />
+              <bt:Override Locale="ko-KR" Value="이 이메일 신고" />
+              <bt:Override Locale="lt-LT" Value="Pranešti apie šį el. laišką" />
+              <bt:Override Locale="lv-LV" Value="Ziņot par šo e-pasta ziņojumu" />
+              <bt:Override Locale="ms-MY" Value="Laporkan e-mel ini" />
+              <bt:Override Locale="nl-NL" Value="Meld deze e-mail" />
+              <bt:Override Locale="no-NO" Value="Rapporter denne e-posten" />
+              <bt:Override Locale="pl-PL" Value="Zgłoś tę wiadomość e-mail" />
+              <bt:Override Locale="pt-BR" Value="Denunciar este e-mail" />
+              <bt:Override Locale="pt-PT" Value="Denunciar este e-mail" />
+              <bt:Override Locale="ro-RO" Value="Raportează acest e-mail" />
+              <bt:Override Locale="ru-RU" Value="Пометить письмо" />
+              <bt:Override Locale="sk-SK" Value="Nahlásiť tento e-mail" />
+              <bt:Override Locale="sl-SI" Value="Prijavi to e-pošto" />
+              <bt:Override Locale="sr-RS" Value="Prijavite ovaj imejl" />
+              <bt:Override Locale="sv-SE" Value="Rapportera detta e-postmeddelande" />
+              <bt:Override Locale="th-TH" Value="รายงานอีเมลนี้" />
+              <bt:Override Locale="tr-TR" Value="Bu e-postayı raporla" />
+              <bt:Override Locale="vi-VN" Value="Báo cáo email này" />
+              <bt:Override Locale="zh-CN" Value="报告此电子邮件" />
+              <bt:Override Locale="zh-TW" Value="檢舉此電子郵件" />
+        </bt:String>
+      </bt:ShortStrings>
+      <bt:LongStrings>
+        <!-- Read mode -->
+        <bt:String id="funcReadSuperTipDescription" DefaultValue="Report this email">
+              <bt:Override Locale="ar-SA" Value="الإبلاغ عن هذا البريد الإلكتروني" />
+              <bt:Override Locale="bg-BG" Value="Докладвайте този имейл" />
+              <bt:Override Locale="cs-CZ" Value="Nahlásit tento e-mail" />
+              <bt:Override Locale="da-DK" Value="Rapporter denne e-mail" />
+              <bt:Override Locale="de-CH" Value="Diese E-Mail melden" />
+              <bt:Override Locale="de-DE" Value="Diese E-Mail melden" />
+              <bt:Override Locale="el-GR" Value="Αναφέρετε αυτό το email" />
+              <bt:Override Locale="en-US" Value="Report this email" />
+              <bt:Override Locale="es-419" Value="Denunciar este correo electrónico" />
+              <bt:Override Locale="es-ES" Value="Denunciar este correo electrónico" />
+              <bt:Override Locale="et-EE" Value="Teata sellest meilist" />
+              <bt:Override Locale="fi-FI" Value="Raportoi sähköposti" />
+              <bt:Override Locale="fr-CA" Value="Signaler ce courriel" />
+              <bt:Override Locale="fr-FR" Value="Signaler cet e-mail" />
+              <bt:Override Locale="he-IL" Value="דווח על דוא&quot;ל זה" />
+              <bt:Override Locale="hi-IN" Value="इस ईमेल की रिपोर्ट करें" />
+              <bt:Override Locale="hr-HR" Value="Prijavi ovu e-poštu" />
+              <bt:Override Locale="hu-HU" Value="A jelen e-mail bejelentése" />
+              <bt:Override Locale="id-ID" Value="Laporkan email ini" />
+              <bt:Override Locale="it-IT" Value="Segnala l&#x27;e-mail" />
+              <bt:Override Locale="ja-JP" Value="このメールを報告する" />
+              <bt:Override Locale="ko-KR" Value="이 이메일 신고" />
+              <bt:Override Locale="lt-LT" Value="Pranešti apie šį el. laišką" />
+              <bt:Override Locale="lv-LV" Value="Ziņot par šo e-pasta ziņojumu" />
+              <bt:Override Locale="ms-MY" Value="Laporkan e-mel ini" />
+              <bt:Override Locale="nl-NL" Value="Meld deze e-mail" />
+              <bt:Override Locale="no-NO" Value="Rapporter denne e-posten" />
+              <bt:Override Locale="pl-PL" Value="Zgłoś tę wiadomość e-mail" />
+              <bt:Override Locale="pt-BR" Value="Denunciar este e-mail" />
+              <bt:Override Locale="pt-PT" Value="Denunciar este e-mail" />
+              <bt:Override Locale="ro-RO" Value="Raportează acest e-mail" />
+              <bt:Override Locale="ru-RU" Value="Пометить письмо" />
+              <bt:Override Locale="sk-SK" Value="Nahlásiť tento e-mail" />
+              <bt:Override Locale="sl-SI" Value="Prijavi to e-pošto" />
+              <bt:Override Locale="sr-RS" Value="Prijavite ovaj imejl" />
+              <bt:Override Locale="sv-SE" Value="Rapportera detta e-postmeddelande" />
+              <bt:Override Locale="th-TH" Value="รายงานอีเมลนี้" />
+              <bt:Override Locale="tr-TR" Value="Bu e-postayı raporla" />
+              <bt:Override Locale="vi-VN" Value="Báo cáo email này" />
+              <bt:Override Locale="zh-CN" Value="报告此电子邮件" />
+              <bt:Override Locale="zh-TW" Value="檢舉此電子郵件" />
+        </bt:String>
+      </bt:LongStrings>
+    </Resources>
+    <WebApplicationInfo>
+      <Id>046139b4-2dca-4a82-aabe-cc0350ba9bba</Id>
+      <Resource>api://officejs.hoxhunt.com/046139b4-2dca-4a82-aabe-cc0350ba9bba</Resource>
+      <Scopes>
+        <Scope>openid</Scope>
+        <Scope>user.read</Scope>
+        <Scope>mail.readwrite.shared</Scope>
+        <Scope>mail.send.shared</Scope>
+        <Scope>profile</Scope>
+      </Scopes>
+    </WebApplicationInfo>
+  </VersionOverrides>
+  </VersionOverrides>
+</OfficeApp>
