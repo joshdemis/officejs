@@ -8,7 +8,7 @@
   <Version>1.0.3.0</Version>
   <ProviderName>Hoxhunt Ltd. viaGit</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
-  <DisplayName DefaultValue="Report this email">
+  <DisplayName DefaultValue="Report this email(new)">
         <Override Locale="ar-SA" Value="الإبلاغ عن هذا البريد الإلكتروني" />
         <Override Locale="bg-BG" Value="Докладвайте този имейл" />
         <Override Locale="cs-CZ" Value="Nahlásit tento e-mail" />
@@ -16,7 +16,7 @@
         <Override Locale="de-CH" Value="Diese E-Mail melden" />
         <Override Locale="de-DE" Value="Diese E-Mail melden" />
         <Override Locale="el-GR" Value="Αναφέρετε αυτό το email" />
-        <Override Locale="en-US" Value="Report this email" />
+        <Override Locale="en-US" Value="Report this email (new)" />
         <Override Locale="es-419" Value="Denunciar este correo electrónico" />
         <Override Locale="es-ES" Value="Denunciar este correo electrónico" />
         <Override Locale="et-EE" Value="Teata sellest meilist" />
@@ -51,7 +51,7 @@
         <Override Locale="zh-CN" Value="报告此电子邮件" />
         <Override Locale="zh-TW" Value="檢舉此電子郵件" />
   </DisplayName>
-  <Description DefaultValue="Hoxhunt Plugin">
+  <Description DefaultValue="Hoxhunt Plugin (new)">
         <Override Locale="ar-SA" Value="مكون Hoxhunt الإضافي" />
         <Override Locale="bg-BG" Value="Приставка на Hoxhunt" />
         <Override Locale="cs-CZ" Value="Plugin Hoxhunt" />
@@ -59,7 +59,7 @@
         <Override Locale="de-CH" Value="Hoxhunt-Plug-in" />
         <Override Locale="de-DE" Value="Hoxhunt-Plug-in" />
         <Override Locale="el-GR" Value="Πρόσθετο Hoxhunt" />
-        <Override Locale="en-US" Value="Hoxhunt Plugin" />
+        <Override Locale="en-US" Value="Hoxhunt Plugin (new)" />
         <Override Locale="es-419" Value="Complemento de Hoxhunt" />
         <Override Locale="es-ES" Value="Complemento de Hoxhunt" />
         <Override Locale="et-EE" Value="Asutuse Hoxhunt pistikprogramm" />
